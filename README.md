@@ -13,7 +13,7 @@ Bueno una ves esto ejecuta bash backdoor.sh elije un backdoor
 
 Puede ser de FreFire,  Pase elite, Facebook, Instagram, y Tiktok
 
-El backdoor se le guardar en sus archivos de almacenamiento interno 
+El backdoor se le guardara en sus archivos de almacenamiento interno 
 
 Luego enviáselo a la victima por Washapp 
 
