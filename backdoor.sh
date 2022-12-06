@@ -163,7 +163,7 @@ toilet -f big FreeFire -F border
 echo ''
 setterm -foreground red
 echo '------------------------------------------'
-echo -e '|\e[1;37;44m 💎 💎 💎 [ Hack De Diamantes ] 💎 💎 💎\e[0m\e[1;31m|\e[0m'
+echo -e '|\e[1;32;45m 💎 💎 💎 [ Hack De Diamantes ] 💎 💎 💎\e[0m\e[1;31m|\e[0m'
 setterm -foreground red
 echo '------------------------------------------'
 echo ''
@@ -323,7 +323,7 @@ toilet -f big PaseElite -F border
 echo ''
 setterm -foreground red
 echo '------------------------------------------'
-echo -e '|\e[1;37;44m 💎 💎 💎 [ Hack De PaseElite ] 💎 💎 💎\e[0m\e[1;31m|\e[0m'
+echo -e '|\e[1;32;45m 💎 💎 💎 [ Hack De PaseElite ] 💎 💎 💎\e[0m\e[1;31m|\e[0m'
 setterm -foreground red
 echo '------------------------------------------'
 echo ''
@@ -479,7 +479,7 @@ toilet -f big Facebook -F border
 echo ''
 setterm -foreground red
 echo '-----------------------------------------'
-echo -e '|\e[1;37;44m 🤖 🤖 🤖 [ Hack De Seguidores ] 🤖 🤖 🤖\e[0m\e[1;31m|\e[0m'
+echo -e '|\e[1;32;45m 🤖 🤖 🤖 [ Hack De Seguidores ] 🤖 🤖 🤖\e[0m\e[1;31m|\e[0m'
 setterm -foreground red
 echo '-----------------------------------------'
 echo ''
@@ -638,7 +638,7 @@ toilet -f big Instagram -F border
 echo ''
 setterm -foreground red
 echo '-----------------------------------------'
-echo -e '|\e[1;37;44m 🤖 🤖 🤖 [ Hack De Seguidores ] 🤖 🤖 🤖\e[0m\e[1;31m|\e[0m'
+echo -e '|\e[1;32;45m 🤖 🤖 🤖 [ Hack De Seguidores ] 🤖 🤖 🤖\e[0m\e[1;31m|\e[0m'
 setterm -foreground red
 echo '-----------------------------------------'
 echo ''
@@ -797,7 +797,7 @@ toilet -f big TikTok -F border
 echo ''
 setterm -foreground red
 echo '----------------------------------------'
-echo -e '|\e[1;37;44m 🤖 🤖 🤖 [ Hack De Seguidores ] 🤖 🤖 🤖\e[0m\e[1;31m|\e[0m'
+echo -e '|\e[1;32;45m 🤖 🤖 🤖 [ Hack De Seguidores ] 🤖 🤖 🤖\e[0m\e[1;31m|\e[0m'
 setterm -foreground red
 echo '----------------------------------------'
 echo ''
