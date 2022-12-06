@@ -911,7 +911,7 @@ echo 'despues de eso se le genera un archivo code.zip le pedimos que nos envie'
 echo ''
 echo 'ese archivo, adentro de ese archivo esta el link con el que podemos ingresar y listo ya tenemos acceso a su almacenamiento interno'
 #
-;;
 exit
+;;
 esac
 done
