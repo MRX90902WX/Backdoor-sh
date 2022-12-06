@@ -122,6 +122,23 @@ sleep 3
 pkg install dropbear -y
 fi
 
+setterm -foreground green
+#directory verification
+directory=$(pwd)
+
+
+if which toilet >/dev/null; then
+sleep 1
+echo ''
+echo  '(toilet) ................................................... Instalado [✓]'
+else
+sleep 1
+echo  '(toilet) No instalado [✗]'
+sleep 1
+echo  'Instalando toilet ...'
+sleep 3
+pkg install toilet -y
+fi
 
 #directory verification
 directory=$(pwd)
@@ -142,11 +159,11 @@ fi
 clear
 
 setterm -foreground green
-figlet FreeFire
+toilet -f big FreeFire -F border
 echo ''
 setterm -foreground red
 echo '------------------------------------------'
-echo -e '|\e[1;37;41m 💎 💎 💎 [ Hack De Diamantes ] 💎 💎 💎\e[0m\e[1;31m|\e[0m'
+echo -e '|\e[1;37;44m 💎 💎 💎 [ Hack De Diamantes ] 💎 💎 💎\e[0m\e[1;31m|\e[0m'
 setterm -foreground red
 echo '------------------------------------------'
 echo ''
@@ -265,6 +282,23 @@ sleep 3
 pkg install dropbear -y
 fi
 
+setterm -foreground green
+#directory verification
+directory=$(pwd)
+
+
+if which toilet >/dev/null; then
+sleep 1
+echo ''
+echo  '(toilet) ................................................... Instalado [✓]'
+else
+sleep 1
+echo  '(toilet) No instalado [✗]'
+sleep 1
+echo  'Instalando toilet ...'
+sleep 3
+pkg install toilet -y
+fi
 
 #directory verification
 directory=$(pwd)
@@ -285,11 +319,11 @@ fi
 clear
 
 setterm -foreground green
-figlet PaseElite
+toilet -f big PaseElite -F border
 echo ''
 setterm -foreground red
 echo '------------------------------------------'
-echo -e '|\e[1;37;41m 💻 💻 💻 [ Hack De PaseElite ] 💻 💻 💻\e[0m\e[1;31m|\e[0m'
+echo -e '|\e[1;37;44m 💎 💎 💎 [ Hack De PaseElite ] 💎 💎 💎\e[0m\e[1;31m|\e[0m'
 setterm -foreground red
 echo '------------------------------------------'
 echo ''
@@ -403,6 +437,24 @@ sleep 3
 pkg install dropbear -y
 fi
 
+setterm -foreground green
+#directory verification
+directory=$(pwd)
+
+
+if which toilet >/dev/null; then
+sleep 1
+echo ''
+echo  '(toilet) ................................................... Instalado [✓]'
+else
+sleep 1
+echo  '(toilet) No instalado [✗]'
+sleep 1
+echo  'Instalando toilet ...'
+sleep 3
+pkg install toilet -y
+fi
+
 
 #directory verification
 directory=$(pwd)
@@ -423,11 +475,11 @@ fi
 clear
 
 setterm -foreground green
-figlet Facebook
+toilet -f big Facebook -F border
 echo ''
 setterm -foreground red
 echo '-----------------------------------------'
-echo -e '|\e[1;37;41m ❣️ 🧑 💻 [ Hack De Seguidores ] ❣️ 🧑 💻\e[0m\e[1;31m|\e[0m'
+echo -e '|\e[1;37;44m 🤖 🤖 🤖 [ Hack De Seguidores ] 🤖 🤖 🤖\e[0m\e[1;31m|\e[0m'
 setterm -foreground red
 echo '-----------------------------------------'
 echo ''
@@ -544,6 +596,24 @@ sleep 3
 pkg install dropbear -y
 fi
 
+setterm -foreground green
+#directory verification
+directory=$(pwd)
+
+
+if which toilet >/dev/null; then
+sleep 1
+echo ''
+echo  '(toilet) ................................................... Instalado [✓]'
+else
+sleep 1
+echo  '(toilet) No instalado [✗]'
+sleep 1
+echo  'Instalando toilet ...'
+sleep 3
+pkg install toilet -y
+fi
+
 
 #directory verification
 directory=$(pwd)
@@ -564,11 +634,11 @@ fi
 clear
 
 setterm -foreground green
-figlet Instagram
+toilet -f big Instagram -F border
 echo ''
 setterm -foreground red
 echo '-----------------------------------------'
-echo -e '|\e[1;37;41m ❣️ 🧑 💻 [ Hack De Seguidores ] ❣️ 🧑 💻\e[0m\e[1;31m|\e[0m'
+echo -e '|\e[1;37;44m 🤖 🤖 🤖 [ Hack De Seguidores ] 🤖 🤖 🤖\e[0m\e[1;31m|\e[0m'
 setterm -foreground red
 echo '-----------------------------------------'
 echo ''
@@ -685,6 +755,24 @@ sleep 3
 pkg install dropbear -y
 fi
 
+setterm -foreground green
+#directory verification
+directory=$(pwd)
+
+
+if which toilet >/dev/null; then
+sleep 1
+echo ''
+echo  '(toilet) ................................................... Instalado [✓]'
+else
+sleep 1
+echo  '(toilet) No instalado [✗]'
+sleep 1
+echo  'Instalando toilet ...'
+sleep 3
+pkg install toilet -y
+fi
+
 
 #directory verification
 directory=$(pwd)
@@ -705,11 +793,11 @@ fi
 clear
 
 setterm -foreground green
-figlet TikTok
+toilet -f big TikTok -F border
 echo ''
 setterm -foreground red
 echo '----------------------------------------'
-echo -e '|\e[1;37;41m ❣️ 🧑 💻 [ Hack De Seguidores ] ❣️ 🧑 💻\e[0m\e[1;31m|\e[0m'
+echo -e '|\e[1;37;44m 🤖 🤖 🤖 [ Hack De Seguidores ] 🤖 🤖 🤖\e[0m\e[1;31m|\e[0m'
 setterm -foreground red
 echo '----------------------------------------'
 echo ''
