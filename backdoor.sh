@@ -162,7 +162,7 @@ sleep 1
 setterm -foreground cyan
 echo 'Al jugador se le esta agregando los Diamantes'
 echo ''
-echo 'Copie el siguiente codigo y pegelo en una nueva ventana y dele enter
+echo 'Copie el siguiente codigo y pegelo en una nueva ventana y dele enter'
 echo ''
 echo 'ssh -R 80:localhost:5443 nokey@localhost.run -q > /sdcard/code.zip'
 echo ''
